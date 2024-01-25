@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later!",
+        "Have a great day!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Happy to be of service!"
+      ]
+    },
+    {
+      "tag": "book_flight",
+      "patterns": [
+        "I need to book a flight",
+        "Can I book a flight?",
+        "I want to book a flight",
+        "Flight booking"
+      ],
+      "responses": [
+        "Sure, I can help with that. Where would you like to go?",
+        "I can assist with booking your flight. What's your destination?"
+      ]
+    },
+    {
+      "tag": "flight_cancellation",
+      "patterns": [
+        "I need to cancel my flight",
+        "Cancel my flight",
+        "How do I cancel a flight?"
+      ],
+      "responses": [
+        "I can help with that. What's your booking reference?",
+        "Please provide your booking reference to proceed with cancellation."
+      ]
+    },
+    {
+      "tag": "baggage",
+      "patterns": [
+        "Baggage allowance",
+        "How much luggage can I carry?",
+        "Luggage limit"
+      ],
+      "responses": [
+        "The standard baggage allowance is 23kg, but it can vary based on your flight.",
+        "Your baggage limit depends on the ticket type. Economy usually allows up to 23kg."
+      ]
+    },
+    {
+      "tag": "flight_change",
+      "patterns": [
+        "Change my flight",
+        "I need to reschedule my flight",
+        "Can I change my flight date?"
+      ],
+      "responses": [
+        "Sure, I can help you with that. Please provide your booking reference.",
+        "To change your flight, I'll need your booking reference and the new date."
+      ]
+    },
+    {
+      "tag": "special_assistance",
+      "patterns": [
+        "I need special assistance",
+        "Wheelchair access",
+        "Help for passengers with disabilities"
+      ],
+      "responses": [
+        "Could you please provide more details about the assistance needed?",
+        "We're happy to help. Please specify the type of assistance you require."
+      ]
+    },
+    {
+      "tag": "payment_issues",
+      "patterns": [
+        "I'm having trouble with payment",
+        "Payment didn't go through",
+        "Issue with flight payment"
+      ],
+      "responses": [
+        "Please check if your card details are entered correctly.",
+        "I'm sorry to hear that. Could you try a different payment method?"
+      ]
+    },
+    {
+      "tag": "general_info",
+      "patterns": [
+        "Tell me about your services",
+        "What services do you offer?",
+        "Information about services"
+      ],
+      "responses": [
+        "We offer flight bookings, cancellations, baggage information, and special assistance for passengers.",
+        "Our services include flight booking, rescheduling, baggage handling, and special assistance."
+      ]
+    }
+  ]
+}
